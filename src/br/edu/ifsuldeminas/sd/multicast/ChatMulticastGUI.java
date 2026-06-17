@@ -29,11 +29,11 @@ public class ChatMulticastGUI extends JFrame implements MessageContainer {
         JPanel painelConfig = new JPanel(new GridLayout(4, 2, 5, 5));
         
         painelConfig.add(new JLabel(" IP do Grupo Multicast:"));
-        txtGrupoIp = new JTextField("228.6.7.8"); 
+        txtGrupoIp = new JTextField("224.0.0.1"); 
         painelConfig.add(txtGrupoIp);
         
         painelConfig.add(new JLabel(" Porta:"));
-        txtPorta = new JTextField("3000"); 
+        txtPorta = new JTextField("5555"); 
         painelConfig.add(txtPorta);
         
         painelConfig.add(new JLabel(" Seu Nickname:"));
